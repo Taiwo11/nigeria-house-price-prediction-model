@@ -1,12 +1,31 @@
 # Nigeria House Price Prediction (ML + Clustering + Streamlit)
 
-This project predicts Nigerian house prices using supervised machine learning models and also segments properties into clusters using K-Means for market grouping.
+> 🚀 This is the advanced rebuild (v2) of my original ML project.  
+> 📌 View the original version (v1) here: [Nigerian House Price Prediction – v1](https://github.com/Taiwo11/Nigerian-House-Price-Prediction-Model)
 
-It includes:
-- Linear Regression (baseline)
-- Random Forest Regressor (improved accuracy)
-- K-Means clustering (housing market segmentation)
-- Streamlit deployment (interactive app)
+
+---
+
+## 📘 Project Overview
+
+The Nigerian real estate market is growing rapidly, yet pricing remains inconsistent due to a lack of standardized valuation models.
+
+This project aims to build a machine learning–based predictive model that estimates house prices using historical property listing data from across Nigeria.
+
+### 🎯 Goal
+
+To develop a data-driven pricing system that can help buyers, sellers, and developers make more informed decisions.
+
+---
+
+## 🚀 Key Features
+
+- Predict house prices using Linear Regression and Random Forest
+- Compare model outputs
+- Segment properties using K-Means clustering
+- Deploy interactive prediction interface using Streamlit
+
+
 
 ---
 
@@ -68,6 +87,31 @@ nigeria-house-price-prediction-model/
 
 ## Tech Stack
 Python, Pandas, NumPy, Scikit-learn, Streamlit, Matplotlib
+
+---
+
+## 🖥 Programming Language
+
+- Python 🐍
+
+---
+
+## 📚 Libraries
+
+- **Data Processing & Analysis:**  
+  pandas, numpy  
+
+- **Visualization:**  
+  matplotlib, seaborn  
+
+- **Machine Learning & Modeling:**  
+  scikit-learn  
+
+- **Evaluation Metrics:**  
+  sklearn.metrics (MAE, RMSE)  
+
+- **Web Deployment:**  
+  Streamlit (for interactive model deployment)
 
 ---
 
