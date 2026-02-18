@@ -12,35 +12,38 @@ It includes:
 
 ## Project Structure
 
+```
 nigeria-house-price-prediction-model/
 │
 ├── data/
-│ ├── raw/ # Original dataset
-│ └── processed/ # Cleaned data
+│   ├── raw/                # Original dataset
+│   └── processed/          # Cleaned data
 │
-├── notebooks/ # EDA and experimentation
-│ ├── 01_eda.ipynb
-│ ├── 02_model_training.ipynb
-│ └── 03_clustering.ipynb
+├── notebooks/              # EDA and experimentation
+│   ├── 01_eda.ipynb
+│   ├── 02_model_training.ipynb
+│   └── 03_clustering.ipynb
 │
-├── src/ # Core ML pipeline
-│ ├── preprocess.py
-│ ├── train.py
-│ ├── predict.py
-│ └── clustering.py
+├── src/                    # Core ML pipeline
+│   ├── preprocess.py
+│   ├── train.py
+│   ├── predict.py
+│   └── clustering.py
 │
-├── app/ # Streamlit deployment
-│ └── streamlit_app.py
+├── app/                    # Streamlit deployment
+│   └── streamlit_app.py
 │
-├── models/ # Saved trained models
-│ ├── linear_regression.pkl
-│ ├── random_forest.pkl
-│ ├── scaler.pkl
-│ └── kmeans.pkl
+├── models/                 # Saved trained models
+│   ├── linear_regression.pkl
+│   ├── random_forest.pkl
+│   ├── scaler.pkl
+│   └── kmeans.pkl
 │
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
+
 ---
 
 ## Models Used
@@ -82,7 +85,7 @@ streamlit run app/streamlit_app.py
 ```
 
 ---
-
+#
 
 ## Author
 Disu Taiye Mary
